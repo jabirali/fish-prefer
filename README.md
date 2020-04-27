@@ -17,9 +17,13 @@ on e.g. Ubuntu. This plugin helps you alias these back to `fd` and `bat`,
 making the command-line experience more consistent across distributions. 
 
 Long story short, this plugin switches between `coreutils` and "your utils",
-depending on what is available on each machine.
+depending on what is available on each machine. To install the plugin using
+[fisher][5], just use this command:
+
+    fisher add jabirali/fish-yourutils
 
 [1]: https://the.exa.website/
 [2]: https://github.com/sharkdp/fd
 [3]: https://github.com/BurntSushi/ripgrep
 [4]: https://github.com/sharkdp/bat
+[5]: https://github.com/jorgebucaran/fisher
