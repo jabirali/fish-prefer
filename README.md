@@ -17,7 +17,7 @@ on e.g. Ubuntu. This plugin helps you alias these back to `fd` and `bat`,
 making the command-line experience more consistent across distributions. 
 
 Long story short, this plugin switches between `coreutils` and "your utils",
-depending on what is available on each machine you use `fish` on.
+depending on what is available on each machine.
 
 [1]: https://the.exa.website/
 [2]: https://github.com/sharkdp/fd
