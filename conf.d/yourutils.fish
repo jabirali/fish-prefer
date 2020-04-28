@@ -1,6 +1,5 @@
 #!/usr/bin/env fish
 
-# Better replacement for `find`.
 if type -q fdfind
 	alias 'fd' 'fdfind'
 	abbr -ga 'find'   'fd'
@@ -13,14 +12,12 @@ else
 	abbr -ga 'fdfind' 'find'
 end
 
-# Better replacement for `grep`.
 if type -q rg
 	abbr -ga 'grep' 'rg'
 else
 	abbr -ga 'rg'   'grep'
 end
 
-# Better replacement for `ls`.
 if type -q exa
 	abbr -ga 'ls'   'exa'
 	abbr -ga 'll'   'exa -l'
@@ -32,7 +29,6 @@ else
 	abbr -ga 'exa'  'ls'
 end
 
-# Better replacement for `cat`.
 if type -q batcat
 	alias 'bat' 'batcat -p'
 	abbr -ga 'cat' 'bat'
@@ -43,9 +39,14 @@ else
 	abbr -ga 'bat' 'cat'
 end
 
-# Better replacement for `top`.
 if type -q htop
 	abbr -ga 'top' 'htop'
 else
 	abbr -ga 'htop' 'top'
+end
+
+if type -q parallel
+	abbr -ga 'xargs' 'parallel'
+else
+	abbr -ga 'parallel' 'xargs'
 end
