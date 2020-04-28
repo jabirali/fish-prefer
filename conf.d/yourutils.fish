@@ -42,3 +42,10 @@ else if type -q bat
 else
 	abbr -ga 'bat' 'cat'
 end
+
+# Better replacement for `top`.
+if type -q htop
+	abbr -ga 'top' 'htop'
+else
+	abbr -ga 'htop' 'top'
+end
