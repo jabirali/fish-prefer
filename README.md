@@ -26,3 +26,7 @@ depending on what is available on each machine. To install it via [`fisher`][5]:
 [3]: https://github.com/BurntSushi/ripgrep
 [4]: https://github.com/sharkdp/bat
 [5]: https://github.com/jorgebucaran/fisher
+
+## Related projects
+
+- [Fish-virtuoso](https://github.com/jabirali/fish-virtuoso)
