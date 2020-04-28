@@ -21,11 +21,16 @@ end
 if type -q exa
 	abbr -ga 'ls'   'exa'
 	abbr -ga 'll'   'exa -l'
-	abbr -ga 'la'   'exa -a'
+	abbr -ga 'la'   'exa -la'
 	abbr -ga 'tree' 'exa -T'
+else if type -q lsd
+	abbr -ga 'ls'   'lsd'
+	abbr -ga 'll'   'lsd -l'
+	abbr -ga 'la'   'lsd -la'
+	abbr -ga 'tree' 'lsd --tree'
 else
 	abbr -ga 'll'   'ls -l'
-	abbr -ga 'la'   'ls -a'
+	abbr -ga 'la'   'ls -la'
 	abbr -ga 'exa'  'ls'
 end
 
