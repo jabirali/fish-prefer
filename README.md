@@ -1,5 +1,8 @@
 # Fish Prefer
 
+NOTE: This plugin is being retired as its core functionality has now been
+integrated into [fish-abbrfile](https://github.com/jabirali/fish-abbrfile).
+
 There are a lot of shiny new console programs available for Linux/Unix systems
 these days. For instance, the classic Unix commands `ls`, `find`, `grep`, and `cat`
 have the modern replacements [`exa`][1], [`fd`][2], [`rg`][3], and [`bat`][4]. 
